@@ -32,7 +32,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">developedbyed</h1>
+            <h1 className="font-burtons text-xl">Lerning Never Ends</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -100,11 +100,7 @@ export default function Home() {
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
-              {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p> */}
+         
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
@@ -115,11 +111,7 @@ export default function Home() {
                 Do you have an idea for your next great website or mobile App? Let's make it a
                 reality.
               </p>
-              {/* <h4 className="py-4 text-teal-600">Tools I Use</h4>
-              <p className="text-gray-800 py-1"> Pyhton Django </p>
-              <p className="text-gray-800 py-1">JavaScript ( React and React Native )</p>
-              <p className="text-gray-800 py-1">JavaScript ( Node js and Express js )</p>
-              <p className="text-gray-800 py-1">MongoDB for Database</p> */}
+          
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
@@ -128,11 +120,7 @@ export default function Home() {
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              {/* <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p> */}
+           
             </div>
           </div>
         </section>
@@ -211,6 +199,9 @@ export default function Home() {
                 layout="responsive"
                 src={web2}
               />
+              <a href="https://cargos-express.com/" className="dark:text-white py-1">
+            View more
+            </a>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
@@ -220,6 +211,9 @@ export default function Home() {
                 layout="responsive"
                 src={web3}
               />
+              <a href="https://cargos-express.com/" className="dark:text-white py-1">
+            View more
+            </a>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
@@ -229,6 +223,9 @@ export default function Home() {
                 layout="responsive"
                 src={web4}
               />
+              <a href="https://cargos-express.com/" className="dark:text-white py-1">
+            View more
+            </a>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
@@ -238,6 +235,9 @@ export default function Home() {
                 layout="responsive"
                 src={web5}
               />
+              <a href="https://cargos-express.com/" className="dark:text-white py-1">
+            View more
+            </a>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
@@ -247,6 +247,9 @@ export default function Home() {
                 layout="responsive"
                 src={web6}
               />
+              <a href="https://cargos-express.com/" className="dark:text-white py-1">
+            View more
+            </a>
             </div>
           </div>
         </section>
